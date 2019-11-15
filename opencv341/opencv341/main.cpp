@@ -19,6 +19,8 @@ int main()
 	Canny(src, dst, 30, 120);
 	Canny(src, dst2, 3, 120);
 
+	//我在0上面修改！
+
 	system("pause");
 	return 0;
 }
