@@ -17,7 +17,6 @@ int main()
 	Canny(src, dst, 30, 120);
 	Canny(src, dst2, 3, 120);
 
-
 	//¸üĞÂ£¿
 	system("pause");
 	return 0;
