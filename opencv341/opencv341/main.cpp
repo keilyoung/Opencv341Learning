@@ -11,6 +11,8 @@ using namespace std;
 int main()
 {
 
+
+	//我先在1上面进行了第二次修改额！！！
 	//我先在1上面进行了修改额！！！！
 	Mat src;// , dst, dst2;
 	src = imread("d:/image/result.bmp");
