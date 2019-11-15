@@ -14,6 +14,8 @@ int main()
 	Mat src;// , dst, dst2;
 	src = imread("d:/image/result.bmp");
 
+	//我在1处修改！
+
 	Mat dst,dst2;
 	Canny(src, dst, 30, 120);
 	Canny(src, dst2, 3, 120);
