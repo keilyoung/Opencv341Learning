@@ -10,6 +10,8 @@ using namespace std;
 
 int main()
 {
+
+	//我在1上修改
 	Mat src;// , dst, dst2;
 	src = imread("d:/image/result.bmp");
 
