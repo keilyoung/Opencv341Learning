@@ -11,7 +11,6 @@ using namespace std;
 int main()
 {
 
-	//我在1上修改
 	Mat src;// , dst, dst2;
 	src = imread("d:/image/result.bmp");
 
@@ -21,5 +20,6 @@ int main()
 
 	system("pause");
 	return 0;
+	//在试一下咯
 }
 
