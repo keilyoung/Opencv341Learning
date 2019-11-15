@@ -17,6 +17,8 @@ int main()
 	Canny(src, dst, 30, 120);
 	Canny(src, dst2, 3, 120);
 
+	//我先在1上面做了修改并且提交了！！！！
+
 	//更新？
 	system("pause");
 	return 0;
