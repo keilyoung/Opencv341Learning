@@ -22,6 +22,8 @@ int main()
 	merge(m, dst2);
 
 
+	int yk = 0;
+
 
 	system("pause");
 	return 0;
