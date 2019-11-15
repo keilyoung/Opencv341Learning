@@ -17,11 +17,7 @@ int main()
 	Mat dst,dst2;
 	Canny(src, dst, 30, 120);
 	Canny(src, dst2, 3, 120);
-
-	//我在0上面修改！
-
 	system("pause");
 	return 0;
-	//在试一下咯
 }
 
