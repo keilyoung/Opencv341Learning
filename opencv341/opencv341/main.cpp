@@ -6,22 +6,16 @@ using namespace std;
 
 
 
+
+
 int main()
 {
 	Mat src;// , dst, dst2;
 	src = imread("d:/image/result.bmp");
-	vector<Mat> channels;
-	split(src, channels);
-	Mat dst1 = channels.at(1);
 
-	Mat dst2;
-	vector<Mat> m;
-	m.push_back(channels[1]);
-	m.push_back(channels[2]);
-	m.push_back(channels[0]);
-	merge(m, dst2);
-
-
+	Mat dst,dst2;
+	Canny(src, dst, 30, 120);
+	Canny(src, dst2, 3, 120);
 
 	system("pause");
 	return 0;
